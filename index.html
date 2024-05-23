@@ -34,6 +34,12 @@
                 "wdth" 100;
         }
 
+        #skills .skill-container .card img {
+            width: 50px !important;
+            height: 50px !important;
+            object-fit: contain;
+        }
+
         .services-section {
             background-color: #f8f9fa;
             padding: 50px 0;
@@ -71,10 +77,10 @@
     <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark position-sticky px-5 top-0 z-3">
         <a class="navbar-brand" href="#">Mohammad Waleed Khan</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -115,8 +121,8 @@
     <section id="skills" class="skills-section" style="padding: 6rem 0;">
         <div class="container">
             <h1 class="mb-4">Skills</h1>
-            <div class="row align-items-center gap-3">
-                <div class="col-3">
+            <div class="skill-container row align-items-center container-fluid gap-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -131,7 +137,7 @@
                     </div>
                 </div>
             
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -145,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -160,7 +166,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -175,7 +181,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -190,7 +196,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -205,7 +211,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -220,7 +226,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -243,7 +249,7 @@
         <div class="container">
             <h1>Projects</h1>
             <div id="projects-cards" class="row mt-4">
-                <div class="col-lg-4 mt-4 mb-4">
+                <div class="col-9 col-md-6 col-lg-4 mt-4 mb-4">
                     <div class="card">
                         <div class="post-card">
                             <div class="post-card-image">
@@ -272,7 +278,7 @@
         <div class="container">
             <h1>Services</h1>
             <div id="services-cards" class="row mt-4">
-                <div class="col-lg-4 mt-4 mb-4">
+                <div class="col-9 col-md-6 col-lg-4 mt-4 mb-4">
                     <div class="card">
                         <div class="post-card">
                             <div class="post-card-image">
@@ -292,7 +298,7 @@
                     </div>                                                             
                 </div>
 
-                <div class="col-lg-4 mt-4 mb-4">
+                <div class="col-9 col-md-6 col-lg-4 mt-4 mb-4">
                     <div class="card">
                         <div class="post-card">
                             <div class="post-card-image">
@@ -311,7 +317,6 @@
                         </div>
                     </div>                                                             
                 </div>
-                </div>
             </div>
         </div>
     </section>
@@ -322,19 +327,19 @@
             <h1>Contact Me</h1>
 
             <div class="row gap-3">
-                <div class="col-1 skill">
+                <div class="col-6 col-md-4 col-lg-1 skill">
                     LinkedIn:
                     <a href="https://www.linkedin.com/in/profesional-cricketer">
                         <img src="./icons/linkedin.svg" alt="" width="70" height="70">
                     </a>
                 </div>
-                <div class="col-1 skill">
+                <div class="col-6 col-md-4 col-lg-1 skill">
                     Github:
                     <a href="https://github.com/waleedkhan15">
                         <img src="./icons/github.png" alt="" width="70" height="70">
                     </a>
                 </div>
-                <div class="col-2 skill">
+                <div class="col-12 col-md-4 col-lg-2 skill">
                     Email:
                     <br>
                     <div class="d-flex">
